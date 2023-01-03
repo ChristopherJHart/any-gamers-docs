@@ -1,0 +1,39 @@
+banner:
+  enable: true
+  image: "images/banner.jpg"
+  contents: "A Discord bot connecting gamers in a community together"
+  button:
+    contents: "Invite Now"
+    url: "https://discord.com/api/oauth2/authorize?client_id=1059205372138750013&permissions=0&scope=bot%20applications.commands"
+items:
+  - type: highlights
+    items_per_row: 3
+    items:
+      - title: Connect with Other Gamers
+        icon: fa-gamepad
+        content: >
+          Use the */game* command to connect with other gamers in your server
+          who play the video game you're interested in!
+      - title: Mark Yourself as "LFG"
+        icon: fa-search
+        content: >
+          The */lfg* command signals other gamers that you're "Looking for
+          Gamers" for a particular video game within a server!
+      - title: Monitors Your Gaming Activity
+        icon: fa-binoculars
+        content: >
+          Your video game activity is automatically monitored through
+          [Discord's Activity Status](https://support.discord.com/hc/en-us/articles/7931156448919-Activity-Status-Rich-Presence-Settings),
+          which enables like-minded gamers to find you!
+  # - type: heading
+  #   heading: A gigantic heading you can use for whatever
+  #   contents: With a much smaller subtitle hanging out just below it
+  # - type: posts
+  #   #heading: Recent Posts
+  #   content_type: posts
+  #   max: 4
+  - type: cta
+    contents: Ready to find new friends?
+    button:
+      contents: "Invite Now"
+      url: "https://discord.com/api/oauth2/authorize?client_id=1059205372138750013&permissions=0&scope=bot%20applications.commands"
